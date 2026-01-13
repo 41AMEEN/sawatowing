@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+{
+    "siteSettings": {
+        "businessName": "SAWA TOWING",
+        "phone": "(405) 679-6655",
+        "phoneRaw": "+14056796655",
+        "email": "ali@sawatowing.com",
+        "hours": "Daily 6:00 AM – 12:00 AM",
+        "hoursOpens": "06:00",
+        "hoursCloses": "00:00",
+        "serviceAreas": [
+            "Oklahoma City",
+            "Edmond"
+        ],
+        "address": {
+            "city": "Oklahoma City",
+            "state": "OK",
+            "country": "US"
+        }
+    }
+=======
+{
+    "siteSettings": {
+        "businessName": "SAWA TOWING",
+        "phone": "(405) 679-6655",
+        "phoneRaw": "+14056796655",
+        "email": "ali@sawatowing.com",
+        "hours": "Daily 6:00 AM – 12:00 AM",
+        "hoursOpens": "06:00",
+        "hoursCloses": "00:00",
+        "serviceAreas": [
+            "Oklahoma City",
+            "Edmond"
+        ],
+        "address": {
+            "city": "Oklahoma City",
+            "state": "OK",
+            "country": "US"
+        }
+    }
+>>>>>>> ffb15a11b2b97abecd9aef86c6155a6f52301645
+}
