@@ -180,7 +180,7 @@ body.dark-theme .filter-btn {
     .nav-menu {
         position: fixed;
         top: 70px;
-        left: -100%;
+        left: 0;        transform: translateX(-100%);        opacity: 0;        visibility: hidden;        pointer-events: none;
         width: 100%;
         height: calc(100vh - 70px);
         background: #1F2937;
@@ -189,12 +189,16 @@ body.dark-theme .filter-btn {
         flex-direction: column;
         padding: 2rem;
         gap: 1.5rem;
-        transition: left 0.3s ease;
+        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s linear 0.3s;
         z-index: 1000;
     }
 
     .nav-menu.active {
-        left: 0;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .nav-menu li {
@@ -1649,7 +1653,7 @@ body.dark-theme .filter-btn {
     .nav-menu {
         position: fixed;
         top: 70px;
-        left: -100%;
+        left: 0;        transform: translateX(-100%);        opacity: 0;        visibility: hidden;        pointer-events: none;
         width: 100%;
         height: calc(100vh - 70px);
         background: #1F2937;
@@ -1658,12 +1662,16 @@ body.dark-theme .filter-btn {
         flex-direction: column;
         padding: 2rem;
         gap: 1.5rem;
-        transition: left 0.3s ease;
+        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s linear 0.3s;
         z-index: 1000;
     }
 
     .nav-menu.active {
-        left: 0;
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transition: transform 0.3s ease, opacity 0.3s ease;
     }
 
     .nav-menu li {
