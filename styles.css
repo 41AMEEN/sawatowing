@@ -657,6 +657,7 @@ section {
     font-size: 1rem;
     font-family: inherit;
     transition: border-color 0.3s ease;
+    box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -933,6 +934,7 @@ section {
     background: white;
     cursor: pointer;
     transition: border-color 0.3s ease;
+    box-sizing: border-box;
 }
 
 .form-group select:focus {
@@ -1021,6 +1023,22 @@ section {
 
     .contact-form {
         padding: 1.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .form-group {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
     }
 }
 
@@ -2144,6 +2162,7 @@ section {
     font-size: 1rem;
     font-family: inherit;
     transition: border-color 0.3s ease;
+    box-sizing: border-box;
 }
 
 .form-group input:focus,
@@ -2420,6 +2439,7 @@ section {
     background: white;
     cursor: pointer;
     transition: border-color 0.3s ease;
+    box-sizing: border-box;
 }
 
 .form-group select:focus {
@@ -2508,6 +2528,22 @@ section {
 
     .contact-form {
         padding: 1.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .form-group {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
     }
 }
 
