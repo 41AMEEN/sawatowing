@@ -1013,6 +1013,15 @@ section {
     .service-card-content p {
         font-size: 1rem;
     }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
+    }
 }
 
 /* Dark Theme Overrides */
@@ -2490,6 +2499,15 @@ section {
 
     .service-card-content p {
         font-size: 1rem;
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-form {
+        padding: 1.5rem;
     }
 }
 
